@@ -1,0 +1,1 @@
+The following CSS code snippet demonstrates an issue where specificity conflicts cause unexpected styling behavior.  The `#myElement p` selector is more specific than the `.myClass p` selector, causing the color of the paragraph within the div to be overridden to blue, even with `.myClass p` being defined after. This is a common problem when dealing with CSS specificity.
