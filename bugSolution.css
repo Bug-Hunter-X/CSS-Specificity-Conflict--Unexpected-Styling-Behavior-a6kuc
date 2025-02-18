@@ -1,0 +1,28 @@
+/*Solution 1: Increase Specificity*/
+#myElement .myClass p {
+  color: green;
+}
+
+/*Solution 2: Use !important (generally discouraged)*/
+.myClass p {
+  color: green !important;
+}
+
+/* Original CSS (Buggy) */
+.myClass p {
+  color: green;
+}
+
+#myElement p {
+  color: blue;
+}
+
+#myElement {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.myClass {
+    width: 200px;
+    border: 1px solid red;
+}
